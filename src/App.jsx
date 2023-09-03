@@ -11,12 +11,13 @@ function App() {
         <Row>
           <Col className="p-5 text-bg-light">
             <Stack gap={3}>
-              <h1 className="text-info">Join our community</h1>
+              <h1 className="text-info">Join the community</h1>
+              <h3 className="text-info">Make the most out of your time with our components.</h3>
               <h3 className="text-warning">
-                30 day hassle-free money back guarantee
+                30 day money back guarantee no questions asked.
               </h3>
               <p className="text-muted">
-                Gain access to our full library of tutorials along with expert
+                Gain access to our full library of tutorials made by our experts.
               </p>
             </Stack>
           </Col>
@@ -25,16 +26,16 @@ function App() {
         <Row>
           <Col className="p-5 text-bg-info text-white">
             <Stack gap={3}>
-              <h2>Monthly Subscription</h2>
+              <h2>Monthly Sub</h2>
               <Stack
                 direction="horizontal"
                 gap={2}
                 className="align-items-center"
               >
-                <h3 className="mb-0">29$</h3>
+                <h3 className="mb-0">99$</h3>
                 <small>per month</small>
               </Stack>
-              <p>Full access for less than $1 a day</p>
+              <p>Full access for less than $3.33 a day</p>
               <Button variant="warning">Sign Up</Button>
             </Stack>
           </Col>
